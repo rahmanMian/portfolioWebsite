@@ -1,8 +1,21 @@
-import React from 'react'
+import { motion } from 'framer-motion';
+import { styles }  from '../styles';
+import { ComputersCanvas } from './canvas';
 
-const Hero = () => {
+ const Hero = () => {
   return (
-    <div>Hero</div>
+    <section className='relative w-full h-screen mx-auto'>
+    <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+      <div className="flex flex-col 
+      justify-center items-center mt-5">
+        <div className='w-1 sm:h-80 h-50
+        orange-gradient' />
+      </div>
+      <div>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hey, I'm <span className='text-[#915eff]'>Rahman</span></h1>
+        </div>
+    </div>
+    </section>
   )
 }
 
