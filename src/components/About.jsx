@@ -5,6 +5,7 @@ import {motion} from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
 import {fadeIn, textVariant} from '../utils/motion'
+import {SectionWrapper} from '../hoc';
 
 const ServiceCard = ({index, title, icon}) =>{
   return (
@@ -22,7 +23,7 @@ const ServiceCard = ({index, title, icon}) =>{
           }}
           style={{ backgroundImage: `url(${icon})` }}
           className='bg-cover bg-center aspect-w-16 aspect-h-9 rounded-[5px]
-           min-h-[355px] 
+           min-h-[360px] 
           justify-between items-center flex flex-col'>
             <h3 className='text-playing-card-red text-[23px] font-card font-bold'>{title}</h3>
             <h3 className='text-playing-card-red text-[23px] rotate-180 font-card font-bold'>{title}</h3>
@@ -51,12 +52,12 @@ const About = () => {
 
      <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
+          <ServiceCard key={service.title} 
+          index={index} {...service} />
         ))}
       </div>
-
     </>
   )
 }
 
-export default About
+export default SectionWrapper(About, "about")
