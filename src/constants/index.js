@@ -5,6 +5,8 @@ import {
     frontend,
     creator,
     web,
+    nrel,
+    rockville,
     javascript,
     typescript,
     html,
@@ -25,6 +27,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    mianwali,
   } from "../assets";
   
   export const navLinks = [
@@ -114,55 +117,39 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Engineer Intern",
+      company_name: "National Renewable Energy Laboratory (NREL)",
+      icon: nrel,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2024 - Sep 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed an Angular application for the US Department of Energy (DOE), enhances building data management by 25%.",
+        "Tailor-made Python backend APIs, integrated with the DOE’s energy platform for 800,000+ square feet of building data.",
+        "Participating in code reviews and demos applying constructive feedback to application",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Web Development Intern",
+      company_name: "Rockville Technologies",
+      icon: rockville,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Dec 2022 - Feb 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Optimized frontend scripts, reducing code bloat by 10% through strategic script removal, and ID-to-class conversion.",
+        "Executed lazy loading techniques to enhance loading speeds, resulting in a 9% reduced loading time",
+        "Implemented responsive design and ensuring cross-browser compatibility.",
+      ],
+    },
+    {
+      title: "IT Technician",
+      company_name: "Mianwali Education Trust",
+      icon: mianwali,
+      iconBg: "#E6DEDD",
+      date: "March 2021 - Present",
+      points: [
+        "Engineered a responsive website utilizing modern web frameworks; resulting in a 30% surge in user email inquiries",
+        "Revitalized IT infrastructure, elevating operational efficiency by 15% through optimized system configurations",
+        "Tutoring sessions with students teaching IT and programming fundamentals.",
       ],
     },
   ];
