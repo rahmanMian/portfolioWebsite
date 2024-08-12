@@ -208,7 +208,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      video: leetbank,
+      img: leetbank,
       source_code_link: "https://github.com/rahmanMian/LeetBank",
     },
     {
@@ -229,7 +229,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      video: carinworld,
+      img: carinworld,
       source_code_link: "https://github.com/rahmanMian/Self-Driving-Car-in-User-Gen-World",
     },
     {
@@ -250,7 +250,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      video: snaptask,
+      img: snaptask,
       source_code_link: "https://github.com/rahmanMian/SnapTask",
     },
     {
@@ -271,7 +271,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      video: embedded,
+      img: embedded,
       source_code_link: "https://github.com/rahmanMian/ML-Complex-Gesture-Detection",
     },
   ];

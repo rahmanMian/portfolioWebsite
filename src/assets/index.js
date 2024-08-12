@@ -34,10 +34,10 @@ import rockville from "./company/rockville.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import leetbank from "./leetbank.mp4";
-import carinworld from "./carinworld.mp4";
-import snaptask from "./snaptask.mp4";
-import embedded from "./embedded.mp4";
+import leetbank from "./leetbank.gif";
+import carinworld from "./carinworld.gif";
+import snaptask from "./snaptask.gif";
+import embedded from "./embedded.gif";
 import resume from "./resume.pdf"
 
 export {

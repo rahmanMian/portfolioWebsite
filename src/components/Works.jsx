@@ -6,21 +6,18 @@ import { projects } from '../constants';
 import { fadeIn, textVariant} from '../utils/motion'
 
 const ProjectCard = ({index, name, description,
-  tags, video, source_code_link}) => {
+  tags, img, source_code_link}) => {
     return (
    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
      <div
      className='bg-tertiary p-5 rounded-2xl
      sm:w-[400px] w-full'>
       <div className='relative w-full h-[240px]'>
-        <video 
-          src={video}
+        <img
+          src={img}
           alt={name}
           className='w-full h-full object-cover
           rounded-2xl'
-          autoPlay
-          loop
-          muted
         />
 
         <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
