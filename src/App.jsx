@@ -8,13 +8,11 @@ const App = () => {
   return (
    <BrowserRouter>
     <div className="relative z-0 bg-primary">
-     <div>
       <Navbar/>
       <Hero />
      <About/>
      <Experience/>
      <StarsCanvas /> 
-     </div>
      <Works />
      <div className="relative z-0">
        <Contact />

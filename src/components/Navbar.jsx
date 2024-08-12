@@ -45,7 +45,7 @@ const Navbar = () => {
                   window.open(resume, '_blank');
                 }
               }}
-              >
+              > 
                  <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
@@ -73,7 +73,13 @@ const Navbar = () => {
                         setToggle(!toggle);
                       }}
                       >
-                      <a href={`#${link.id}`}>{link.title}</a>
+                     <a
+                      href={link.title === "Resume" ? resume : `#${link.id}`}
+                       target={link.title === "Resume" ? "_blank" : undefined}
+                        rel={link.title === "Resume" ? "noopener noreferrer" : undefined}
+                      >
+                      {link.title}
+                      </a>
             </li>
           ))}
         </ul>
