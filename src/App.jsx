@@ -8,20 +8,22 @@ const App = () => {
   return (
    <BrowserRouter>
     <div className="relative z-0 bg-primary">
-     <div className="bg-hero-patter bg-cover 
-     bg-no-repeat bg-center">
+     <div>
       <Navbar/>
+      <div className="relative z-0">
       <Hero />
-     </div>
      <About/>
      <Experience/>
+     <StarsCanvas /> 
+      </div>
+     </div>
      <Works />
-     <Feedbacks />
+   
      <div className="relative z-0">
        <Contact />
-       <StarsCanvas /> 
      </div>
     </div>
+
    </BrowserRouter>
   )
 }

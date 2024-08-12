@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 import {styles} from '../styles';
 import {navLinks} from '../constants';
-import {logo, menu, close} from '../assets';
+import {logo, menu, close, resume} from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('')
@@ -38,7 +38,13 @@ const Navbar = () => {
                   : "text-secondary"
               } hover:text-white text-[18px] 
               font-medium curson-pointer` }
-              onClick={()=>setActive(link.title)}
+              onClick={() => {
+                setActive(link.title);
+                if (link.title === "Resume") {
+                  // Open resume in a new window
+                  window.open(resume, '_blank');
+                }
+              }}
               >
                  <a href={`#${link.id}`}>{link.title}</a>
             </li>

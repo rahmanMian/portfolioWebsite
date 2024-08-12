@@ -34,6 +34,11 @@ import rockville from "./company/rockville.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import leetbank from "./leetbank.mp4";
+import carinworld from "./carinworld.mp4";
+import snaptask from "./snaptask.mp4";
+import embedded from "./embedded.mp4";
+import resume from "./resume.pdf"
 
 export {
   logo,
@@ -69,4 +74,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  embedded,
+  snaptask,
+  carinworld,
+  leetbank,
+  resume
 };

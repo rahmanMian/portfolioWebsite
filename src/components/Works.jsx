@@ -6,18 +6,21 @@ import { projects } from '../constants';
 import { fadeIn, textVariant} from '../utils/motion'
 
 const ProjectCard = ({index, name, description,
-  tags, image, source_code_link}) => {
+  tags, video, source_code_link}) => {
     return (
    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
      <div
      className='bg-tertiary p-5 rounded-2xl
-     sm:w-[360px] w-full'>
-      <div className='relative w-full h-[230px]'>
-        <img 
-          src={image}
+     sm:w-[400px] w-full'>
+      <div className='relative w-full h-[240px]'>
+        <video 
+          src={video}
           alt={name}
           className='w-full h-full object-cover
           rounded-2xl'
+          autoPlay
+          loop
+          muted
         />
 
         <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
@@ -41,7 +44,7 @@ const ProjectCard = ({index, name, description,
         <h3 className='text-white font-bold text-[24px]'>{name}</h3>
         <p className='mt-2 text-secondary text-[14px]'>{description}</p>
       </div>
-      <div classname="mt-4 flex flex-wrap gap-2">
+      <div className="mt-4 flex flex-wrap gap-2">
         {tags.map((tag) => (
           <p key={tag.name} className={`text-[14px] ${tag.color}`}>
             #{tag.name}
@@ -65,7 +68,7 @@ const ProjectCard = ({index, name, description,
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Each Project is either a link to my GitHub code or a live application. Feel free to hover over them for a quick demo.
+            Each Project has a link to my GitHub code. Feel free to look at the quick video demos or check out my code.
           </motion.p>
         </div>
   

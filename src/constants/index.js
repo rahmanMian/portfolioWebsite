@@ -28,6 +28,10 @@ import {
     tripguide,
     threejs,
     mianwali,
+    leetbank,
+    embedded,
+    carinworld,
+    snaptask
   } from "../assets";
   
   export const navLinks = [
@@ -42,6 +46,10 @@ import {
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "resume",
+      title: "Resume",
     },
   ];
   
@@ -183,58 +191,37 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "LeetBank",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that is designed to help you store and manage your LeetCode questions efficiently.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "firebase",
+          color: "red-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      video: leetbank,
+      source_code_link: "https://github.com/rahmanMian/LeetBank",
     },
     {
-      name: "Job IT",
+      name: "Self Driving Car in Gen World",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Users can construct neighborhoods using a UI dashboard or pull real world data! This provides a path for a ML trained car to drive in.",
       tags: [
         {
-          name: "react",
+          name: "vanillajs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "html",
           color: "green-text-gradient",
         },
         {
@@ -242,8 +229,50 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      video: carinworld,
+      source_code_link: "https://github.com/rahmanMian/Self-Driving-Car-in-User-Gen-World",
+    },
+    {
+      name: "SnapTask",
+      description:
+        "A personal learning project to traverse the intricacies of React. A one-of-one task managing app with a smooth drag and drop functionality.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      video: snaptask,
+      source_code_link: "https://github.com/rahmanMian/SnapTask",
+    },
+    {
+      name: "ML Gesture Detection",
+      description:
+        "An ESP32-S3 microcontroller and an MPU6050 sensor is used to capture complex gesture data, classifying them using machine learning.",
+      tags: [
+        {
+          name: "esp32-s3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "python",
+          color: "pink-text-gradient",
+        },
+      ],
+      video: embedded,
+      source_code_link: "https://github.com/rahmanMian/ML-Complex-Gesture-Detection",
     },
   ];
   
