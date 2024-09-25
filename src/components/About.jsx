@@ -49,7 +49,7 @@ const About = () => {
       I am a software developer who started his journey as a full stack engineer. I love making visually appleaing and responive applications with an equally robust backend.
      </motion.p>
 
-     <div className="mt-20 flex flex-wrap gap-10">
+     <div className="sm:hidden mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} 
           index={index} {...service} />
