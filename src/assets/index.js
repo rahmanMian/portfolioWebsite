@@ -81,5 +81,4 @@ export {
   leetbank,
   pomopay,
   resume
-  
 };

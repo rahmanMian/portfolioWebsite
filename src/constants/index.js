@@ -228,7 +228,7 @@ import {
         }
       ],
       img: pomopay,
-      source_code_link: "pomopay.net",
+      source_code_link: "https://pomopay.net",
     },
     {
       name: "Self Driving Car in Gen World",
