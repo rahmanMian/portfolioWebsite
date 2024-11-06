@@ -19,19 +19,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     mianwali,
     leetbank,
     embedded,
     carinworld,
-    snaptask
+    snaptask,
+    pomopay
   } from "../assets";
   
   export const navLinks = [
@@ -210,6 +204,31 @@ import {
       ],
       img: leetbank,
       source_code_link: "https://github.com/rahmanMian/LeetBank",
+    },
+    {
+      name: "PomoPay",
+      description:
+        "No Excuses: PomoPay drives accountability by tracking weekly goals, verifying progress, and enforcing a forfeit payment if goals aren’t met.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "red-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "googlecloud",
+          color: "green-text-gradient",
+        }
+      ],
+      img: pomopay,
+      source_code_link: "pomopay.net",
     },
     {
       name: "Self Driving Car in Gen World",

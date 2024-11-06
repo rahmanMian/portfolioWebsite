@@ -35,6 +35,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import leetbank from "./leetbank.gif";
+import pomopay from "./pomopay.gif";
 import carinworld from "./carinworld.gif";
 import snaptask from "./snaptask.gif";
 import embedded from "./e.gif";
@@ -78,6 +79,7 @@ export {
   snaptask,
   carinworld,
   leetbank,
+  pomopay,
   resume
   
 };
