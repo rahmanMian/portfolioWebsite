@@ -46,10 +46,10 @@ const About = () => {
       className='mt-4 text-secondary text-[19px]
       max-w-3xl leading-[30px]'
      >
-      I am a software developer who started his journey as a full stack engineer. I love making visually appleaing and responive applications with an equally robust backend.
+      I am a software developer who likes making cool stuff. From full stack to embedded systems.
      </motion.p>
 
-     <div className="sm:hidden mt-20 flex flex-wrap gap-10">
+     <div className="mt-20 flex flex-wrap gap-10 hidden md:flex">
         {services.map((service, index) => (
           <ServiceCard key={service.title} 
           index={index} {...service} />
