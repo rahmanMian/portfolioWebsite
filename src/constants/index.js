@@ -25,7 +25,9 @@ import {
     embedded,
     carinworld,
     snaptask,
-    pomopay
+    chatapp,
+    pomopay,
+    mianwaligif
   } from "../assets";
   
   export const navLinks = [
@@ -185,6 +187,27 @@ import {
   
   const projects = [
     {
+      name: "Mianwali Education Trust",
+      description:
+        "A custom website giving exposure to a Non Profit Organisation. Bringing quality education to children of all backgrounds.",
+      tags: [
+        {
+          name: "wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "red-text-gradient",
+        },
+        {
+          name: "seooptimization",
+          color: "pink-text-gradient",
+        },
+      ],
+      img: mianwaligif,
+      source_code_link: "https://metrust.org.pk",
+    },
+    {
       name: "LeetBank",
       description:
         "Web-based platform that is designed to help you store and manage your LeetCode questions efficiently.",
@@ -204,6 +227,31 @@ import {
       ],
       img: leetbank,
       source_code_link: "https://github.com/rahmanMian/LeetBank",
+    },
+    {
+      name: "ChataLot",
+      description:
+        "Web-based platform to chat with your loved ones in real time. Chat directly to your loved ones. See who's online!",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "red-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      img: chatapp,
+      source_code_link: "https://chat-app-iezi.onrender.com/",
     },
     {
       name: "PomoPay",

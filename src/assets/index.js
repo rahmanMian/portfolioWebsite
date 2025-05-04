@@ -23,24 +23,20 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
+
 import nrel from "./company/nrel.png"
 import mianwali from "./company/mianwali.png"
 import rockville from "./company/rockville.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import chatapp from "./chatapp.gif"
 import leetbank from "./leetbank.gif";
 import pomopay from "./pomopay.gif";
 import carinworld from "./carinworld.gif";
 import snaptask from "./snaptask.gif";
 import embedded from "./e.gif";
 import resume from "./resume.pdf"
-
+import mianwaligif from "./mianwali.gif"
 export {
   logo,
   backend,
@@ -65,20 +61,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
   nrel,
   rockville,
-  tesla,
   mianwali,
-  carrent,
-  jobit,
-  tripguide,
   embedded,
   snaptask,
   carinworld,
   leetbank,
   pomopay,
-  resume
+  chatapp,
+  resume,
+  mianwaligif
 };
