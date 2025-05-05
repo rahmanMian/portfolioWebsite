@@ -238,7 +238,7 @@ import {
         },
       ],
       img: leetbank,
-      isGithubLink: false,
+      isGithubLink: true,
       source_code_link: "https://github.com/rahmanMian/LeetBank",
     },
     {
