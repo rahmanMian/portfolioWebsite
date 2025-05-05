@@ -27,6 +27,7 @@ import {
     snaptask,
     chatapp,
     pomopay,
+    skillsoft,
     mianwaligif
   } from "../assets";
   
@@ -120,6 +121,16 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Software Engineer Intern",
+      company_name: "Skillsoft",
+      icon: skillsoft,
+      iconBg: "#E6DEDD",
+      date: "June 2025 - Dec 2025",
+      points: [
+        "incoming",
+      ],
+    },
     {
       title: "Software Engineer Intern",
       company_name: "National Renewable Energy Laboratory (NREL)",

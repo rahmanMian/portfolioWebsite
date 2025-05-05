@@ -26,9 +26,12 @@ import threejs from "./tech/threejs.svg";
 
 
 
+import skillsoft from "./company/skillsoft.png"
 import nrel from "./company/nrel.png"
 import mianwali from "./company/mianwali.png"
 import rockville from "./company/rockville.png"
+
+
 
 import chatapp from "./chatapp.gif"
 import leetbank from "./leetbank.gif";
@@ -66,6 +69,7 @@ export {
   nrel,
   rockville,
   mianwali,
+  skillsoft,
   embedded,
   snaptask,
   carinworld,
