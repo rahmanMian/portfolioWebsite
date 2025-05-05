@@ -1,12 +1,12 @@
 import { styles } from '../styles';
 import { motion } from 'framer-motion';
-import { github } from '../assets';
+import { github, link } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant} from '../utils/motion'
 
 const ProjectCard = ({index, name, description,
-  tags, img, source_code_link}) => {
+  tags, img, source_code_link, isGithubLink}) => {
     return (
    <motion.div variants={fadeIn("up", "spring", 0.2, 0.75)} >
      <div
@@ -27,9 +27,9 @@ const ProjectCard = ({index, name, description,
             items-center cursor-pointer"
             >
               <img
-              src={github}
+              src={isGithubLink ? github: link}
               alt="github"
-              className='w-1/2 h-1/2
+              className='w-8 h-8
               object-contain'
               />
   

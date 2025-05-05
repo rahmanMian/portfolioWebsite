@@ -205,6 +205,7 @@ import {
         },
       ],
       img: mianwaligif,
+      isGithubLink: false,
       source_code_link: "https://metrust.org.pk",
     },
     {
@@ -226,6 +227,7 @@ import {
         },
       ],
       img: leetbank,
+      isGithubLink: true,
       source_code_link: "https://github.com/rahmanMian/LeetBank",
     },
     {
@@ -251,6 +253,7 @@ import {
         },
       ],
       img: chatapp,
+      isGithubLink: false,
       source_code_link: "https://chat-app-iezi.onrender.com/",
     },
     {
@@ -276,6 +279,7 @@ import {
         }
       ],
       img: pomopay,
+      isGithubLink: false,
       source_code_link: "https://pomopay.net",
     },
     {
@@ -297,6 +301,7 @@ import {
         },
       ],
       img: carinworld,
+      isGithubLink: true,
       source_code_link: "https://github.com/rahmanMian/Self-Driving-Car-in-User-Gen-World",
     },
     {
@@ -318,6 +323,7 @@ import {
         },
       ],
       img: snaptask,
+      isGithubLink: false,
       source_code_link: "https://github.com/rahmanMian/SnapTask",
     },
     {
@@ -339,6 +345,7 @@ import {
         },
       ],
       img: embedded,
+      isGithubLink: true,
       source_code_link: "https://github.com/rahmanMian/ML-Complex-Gesture-Detection",
     },
   ];
