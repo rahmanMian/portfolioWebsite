@@ -238,8 +238,8 @@ import {
         },
       ],
       img: leetbank,
-      isGithubLink: true,
-      source_code_link: "https://github.com/rahmanMian/LeetBank",
+      isGithubLink: false,
+      source_code_link: "https://leetbankclient.vercel.app",
     },
     {
       name: "ChataLot",
