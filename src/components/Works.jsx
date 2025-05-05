@@ -24,12 +24,12 @@ const ProjectCard = ({index, name, description,
           <div
             onClick={()=> window.open(source_code_link,"_blank")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center
-            items-center cursor-pointer"
+            items-center cursor-pointer group"
             >
               <img
               src={isGithubLink ? github: link}
               alt="github"
-              className='w-8 h-8
+              className='w-7 h-7 group-hover:w-8 group-hover:h-8
               object-contain'
               />
   
