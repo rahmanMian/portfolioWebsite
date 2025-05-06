@@ -71,7 +71,7 @@ const ProjectCard = ({index, name, description,
             whileInView="show"
             viewport={{ once: true, amount: 0.3 }}
           >
-            Each Project has a link to my GitHub code. Feel free to look at the quick video demos or check out my code.
+            Each Project has a link. Feel free to look at the quick video demos or check it out.
           </motion.p>
         </div>
   
