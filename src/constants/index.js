@@ -241,32 +241,32 @@ import {
       isGithubLink: false,
       source_code_link: "https://leetbankclient.vercel.app",
     },
-    {
-      name: "ChataLot",
-      description:
-        "Web-based platform to chat with your loved ones in real time. Chat directly to your loved ones. See who's online!",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "node.js",
-          color: "red-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      img: chatapp,
-      isGithubLink: false,
-      source_code_link: "https://chat-app-iezi.onrender.com/",
-    },
+    // {
+    //   name: "ChataLot",
+    //   description:
+    //     "Web-based platform to chat with your loved ones in real time. Chat directly to your loved ones. See who's online!",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "node.js",
+    //       color: "red-text-gradient",
+    //     },
+    //     {
+    //       name: "mongodb",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   img: chatapp,
+    //   isGithubLink: false,
+    //   source_code_link: "https://chat-app-iezi.onrender.com/",
+    // },
     {
       name: "PomoPay",
       description:

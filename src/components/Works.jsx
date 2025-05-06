@@ -11,7 +11,7 @@ const ProjectCard = ({index, name, description,
    <motion.div variants={fadeIn("up", "spring", 0.2, 0.75)}  >
      <div
      className='bg-tertiary p-5 rounded-2xl
-     sm:w-[400px] w-[95%]'>
+     sm:w-[400px] w-full'>
       <div className='relative w-full h-[240px]'>
         <img
           src={img}
@@ -56,7 +56,7 @@ const ProjectCard = ({index, name, description,
   const Works = () => {
     return (
       <>
-  <motion.div variants={textVariant()}>
+       <motion.div variants={textVariant()}>
           <h2 className={styles.sectionHeadText}>Projects</h2>
         </motion.div>
   
@@ -82,4 +82,4 @@ const ProjectCard = ({index, name, description,
     );
   };
   
-export default SectionWrapper(Works, "work");
+export default SectionWrapper(Works, "");
