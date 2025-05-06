@@ -315,28 +315,28 @@ import {
       isGithubLink: true,
       source_code_link: "https://github.com/rahmanMian/Self-Driving-Car-in-User-Gen-World",
     },
-    // {
-    //   name: "SnapTask",
-    //   description:
-    //     "A personal learning project to traverse the intricacies of React. A one-of-one task managing app with a smooth drag and drop functionality.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "api",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   img: snaptask,
-    //   isGithubLink: false,
-    //   source_code_link: "https://github.com/rahmanMian/SnapTask",
-    // },
+    {
+      name: "SnapTask",
+      description:
+        "A personal learning project to traverse the intricacies of React. A one-of-one task managing app with a smooth drag and drop functionality.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      img: snaptask,
+      isGithubLink: false,
+      source_code_link: "https://github.com/rahmanMian/SnapTask",
+    },
     // {
     //   name: "ML Gesture Detection",
     //   description:
