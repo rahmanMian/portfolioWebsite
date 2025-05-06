@@ -11,6 +11,7 @@ export const textVariant = (delay) => {
           type: "spring",
           duration: 1.25,
           delay: delay,
+       
         },
       },
     };
@@ -32,6 +33,7 @@ export const textVariant = (delay) => {
           delay: delay,
           duration: duration,
           ease: "easeOut",
+          staggerChildren: 0.2,
         },
       },
     };

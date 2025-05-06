@@ -8,7 +8,10 @@ import { fadeIn, textVariant} from '../utils/motion'
 const ProjectCard = ({index, name, description,
   tags, img, source_code_link, isGithubLink}) => {
     return (
-   <motion.div variants={fadeIn("up", "spring", 0.2, 0.75)}  >
+   <motion.div variants={fadeIn("up", "spring", 0.2, 0.75)} 
+   whileInView="show"
+   viewport={{ once: true, amount: 0.3 }}
+    >
      <div
      className='bg-tertiary p-5 rounded-2xl
      sm:w-[400px] w-full'>
@@ -56,7 +59,8 @@ const ProjectCard = ({index, name, description,
   const Works = () => {
     return (
       <>
-       <motion.div variants={textVariant()}>
+       <motion.div variants={textVariant()} whileInView="show"
+   viewport={{ once: true, amount: 0.3 }}>
           <h2 className={styles.sectionHeadText}>Projects</h2>
         </motion.div>
   
@@ -64,6 +68,8 @@ const ProjectCard = ({index, name, description,
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.3 }}
           >
             Each Project has a link to my GitHub code. Feel free to look at the quick video demos or check out my code.
           </motion.p>

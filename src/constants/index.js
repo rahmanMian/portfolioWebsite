@@ -337,28 +337,28 @@ import {
       isGithubLink: false,
       source_code_link: "https://github.com/rahmanMian/SnapTask",
     },
-    // {
-    //   name: "ML Gesture Detection",
-    //   description:
-    //     "An ESP32-S3 microcontroller and an MPU6050 sensor is used to capture complex gesture data, classifying them using machine learning.",
-    //   tags: [
-    //     {
-    //       name: "esp32-s3",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "flask",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "python",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   img: embedded,
-    //   isGithubLink: true,
-    //   source_code_link: "https://github.com/rahmanMian/ML-Complex-Gesture-Detection",
-    // },
+    {
+      name: "ML Gesture Detection",
+      description:
+        "An ESP32-S3 microcontroller and an MPU6050 sensor is used to capture complex gesture data, classifying them using machine learning.",
+      tags: [
+        {
+          name: "esp32-s3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "python",
+          color: "pink-text-gradient",
+        },
+      ],
+      img: embedded,
+      isGithubLink: true,
+      source_code_link: "https://github.com/rahmanMian/ML-Complex-Gesture-Detection",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
