@@ -197,28 +197,28 @@ import {
   ];
   
   const projects = [
-    // {
-    //   name: "Mianwali Education Trust",
-    //   description:
-    //     "A custom website giving exposure to a Non Profit Organisation. Bringing quality education to children of all backgrounds.",
-    //   tags: [
-    //     {
-    //       name: "wordpress",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "red-text-gradient",
-    //     },
-    //     {
-    //       name: "seooptimization",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   img: mianwaligif,
-    //   isGithubLink: false,
-    //   source_code_link: "https://metrust.org.pk",
-    // },
+    {
+      name: "Mianwali Education Trust",
+      description:
+        "A custom website giving exposure to a Non Profit Organisation. Bringing quality education to children of all backgrounds.",
+      tags: [
+        {
+          name: "wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "red-text-gradient",
+        },
+        {
+          name: "seooptimization",
+          color: "pink-text-gradient",
+        },
+      ],
+      img: mianwaligif,
+      isGithubLink: false,
+      source_code_link: "https://metrust.org.pk",
+    },
     {
       name: "LeetBank",
       description:
@@ -241,32 +241,32 @@ import {
       isGithubLink: false,
       source_code_link: "https://leetbankclient.vercel.app",
     },
-    // {
-    //   name: "ChataLot",
-    //   description:
-    //     "Web-based platform to chat with your loved ones in real time. Chat directly to your loved ones. See who's online!",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "node.js",
-    //       color: "red-text-gradient",
-    //     },
-    //     {
-    //       name: "mongodb",
-    //       color: "pink-text-gradient",
-    //     },
-    //     {
-    //       name: "tailwind",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   img: chatapp,
-    //   isGithubLink: false,
-    //   source_code_link: "https://chat-app-iezi.onrender.com/",
-    // },
+    {
+      name: "ChataLot",
+      description:
+        "Web-based platform to chat with your loved ones in real time. Chat directly to your loved ones. See who's online!",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "red-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      img: chatapp,
+      isGithubLink: false,
+      source_code_link: "https://chat-app-iezi.onrender.com/",
+    },
     {
       name: "PomoPay",
       description:
@@ -315,50 +315,50 @@ import {
       isGithubLink: true,
       source_code_link: "https://github.com/rahmanMian/Self-Driving-Car-in-User-Gen-World",
     },
-    {
-      name: "SnapTask",
-      description:
-        "A personal learning project to traverse the intricacies of React. A one-of-one task managing app with a smooth drag and drop functionality.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "api",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      img: snaptask,
-      isGithubLink: false,
-      source_code_link: "https://github.com/rahmanMian/SnapTask",
-    },
-    {
-      name: "ML Gesture Detection",
-      description:
-        "An ESP32-S3 microcontroller and an MPU6050 sensor is used to capture complex gesture data, classifying them using machine learning.",
-      tags: [
-        {
-          name: "esp32-s3",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "flask",
-          color: "green-text-gradient",
-        },
-        {
-          name: "python",
-          color: "pink-text-gradient",
-        },
-      ],
-      img: embedded,
-      isGithubLink: true,
-      source_code_link: "https://github.com/rahmanMian/ML-Complex-Gesture-Detection",
-    },
+    // {
+    //   name: "SnapTask",
+    //   description:
+    //     "A personal learning project to traverse the intricacies of React. A one-of-one task managing app with a smooth drag and drop functionality.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "api",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   img: snaptask,
+    //   isGithubLink: false,
+    //   source_code_link: "https://github.com/rahmanMian/SnapTask",
+    // },
+    // {
+    //   name: "ML Gesture Detection",
+    //   description:
+    //     "An ESP32-S3 microcontroller and an MPU6050 sensor is used to capture complex gesture data, classifying them using machine learning.",
+    //   tags: [
+    //     {
+    //       name: "esp32-s3",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "flask",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "python",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   img: embedded,
+    //   isGithubLink: true,
+    //   source_code_link: "https://github.com/rahmanMian/ML-Complex-Gesture-Detection",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
