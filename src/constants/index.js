@@ -197,28 +197,28 @@ import {
   ];
   
   const projects = [
-    {
-      name: "Mianwali Education Trust",
-      description:
-        "A custom website giving exposure to a Non Profit Organisation. Bringing quality education to children of all backgrounds.",
-      tags: [
-        {
-          name: "wordpress",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "red-text-gradient",
-        },
-        {
-          name: "seooptimization",
-          color: "pink-text-gradient",
-        },
-      ],
-      img: mianwaligif,
-      isGithubLink: false,
-      source_code_link: "https://metrust.org.pk",
-    },
+    // {
+    //   name: "Mianwali Education Trust",
+    //   description:
+    //     "A custom website giving exposure to a Non Profit Organisation. Bringing quality education to children of all backgrounds.",
+    //   tags: [
+    //     {
+    //       name: "wordpress",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "red-text-gradient",
+    //     },
+    //     {
+    //       name: "seooptimization",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   img: mianwaligif,
+    //   isGithubLink: false,
+    //   source_code_link: "https://metrust.org.pk",
+    // },
     {
       name: "LeetBank",
       description:
