@@ -16,7 +16,7 @@ const App = () => {
      <Experience/>
      <StarsCanvas /> 
      <Works />
-      <Contact />
+    <Contact />
     </div>
 
    </BrowserRouter>

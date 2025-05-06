@@ -11,7 +11,7 @@ const ProjectCard = ({index, name, description,
    <motion.div variants={fadeIn("up", "spring", 0.2, 0.75)} >
      <div
      className='bg-tertiary p-5 rounded-2xl
-     sm:w-[400px] w-full'>
+     sm:w-[350px] w-full'>
       <div className='relative w-full h-[240px]'>
         <img
           src={img}
